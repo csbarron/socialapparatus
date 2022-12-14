@@ -15,13 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(CategorySeeder::class);
+        $this->call(CategorySeeder::class);
         $this->call(SettingsSeeder::class);
-        User::create([
-            "name"=>"Shane Barron",
-            "email"=>"cshanebarron@gmail.com",
-            "password"=>\Hash::make('Rat9chet!')
-        ]);
-
     }
 }
