@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+[x-cloak] {
+    display:none!important;
+}
+.filepond--credits {
+    display:none!important;
+}
+.ld-trix-styles a {
+    text-decoration: underline;
+}
+.ld-trix-styles h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.ld-trix-styles h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+.ld-trix-styles code {
+    background: #1e293b;
+    border-radius: .5rem;
+    color: #FFFFFF;
+    padding: 1rem;
+    display:inline-block;
+    width:100%;
+    margin-bottom:1em;
+}
+.ld-trix-styles blockquote {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+.ld-trix-styles ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.ld-trix-styles ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.ld-trix-styles ul ul,
+.ld-trix-styles ol ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+.ld-trix-styles ol ol,
+.ld-trix-styles ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+.ld-trix-styles strong {
+    @apply font-bold;
+}
+.trix-button--icon-link,
+.trix-button--icon-strike,
+.trix-button-group--file-tools{
+    display:none!important;
+}
+.small .trix-button--icon-heading-1,
+.small .trix-button--icon-code,
+.small .trix-button--icon-quote,
+.small .trix-button--icon-number-list,
+.small .trix-button--icon-bullet-list,
+.small .trix-button-group--history-tools {
+    display:none!important;
+}
+
